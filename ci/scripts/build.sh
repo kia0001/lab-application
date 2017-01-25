@@ -11,7 +11,7 @@ echo "=============================================="
 
 cd git-repo
 
-./gradlew clean build
+bash gradlew clean build
 
 ARTIFACT=$(cd ./build/libs && ls lab*.jar)
 
